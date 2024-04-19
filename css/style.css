@@ -1638,3 +1638,26 @@ strong {
   }
 }
 
+.site-footer2 {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 20px 0;
+}
+
+.site-footer2 .navbar-brand {
+  display: inline-flex;
+  align-items: center;
+}
+
+.site-footer2 .logo {
+  height: auto;
+  max-width: 100px;
+}
+
+.site-footer2 .ms-2 {
+  font-size: 1.2rem;
+}
+
+.site-footer2 .copyright-text {
+  font-size: 1rem;
+}
