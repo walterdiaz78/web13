@@ -1661,3 +1661,8 @@ strong {
 .site-footer2 .copyright-text {
   font-size: 1rem;
 }
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+}
