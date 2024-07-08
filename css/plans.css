@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.plans {
+    text-align: center;
+}
+
+.plans h2 {
+    color: #4f83d1;
+    margin-bottom: 20px;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch; /* Asegura que todas las cards tengan la misma altura */
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.plan {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 280px;
+    margin: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-top: 5px solid transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 300px; /* Altura mínima para todas las cards */
+}
+
+.plan.basic {
+    border-top-color: #4f83d1; /* Verde para el plan básico */
+}
+
+.plan.full {
+    border-top-color: #4f83d1; /* Rojo para el plan full */
+}
+
+.plan.highlight {
+    border-top-color: #4f83d1; /* Naranja para el plan estándar */
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.plan:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #4f83d1;
+    border-top: white;
+    color: white !important;
+    transition: all 300ms ease-in-out;
+}
+
+.plan h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.plan:hover h3,
+.plan:hover ul li {
+    color: white !important;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+    flex-grow: 1; /* Permite que la lista crezca para llenar el espacio disponible */
+}
+
+.plan ul li {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    .plans-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plan.highlight {
+        transform: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+}
