@@ -124,6 +124,9 @@ section h2 {
 .contact a:hover {
     text-decoration: underline;
 }
+h4 {
+    margin-bottom: 1.5rem;
+}
 
 @media (max-width: 600px) {
     .container {
