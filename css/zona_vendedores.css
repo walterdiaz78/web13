@@ -5,7 +5,7 @@ html {
 body {
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -16,12 +16,13 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
 }
 
 .container__title {
     font-size: 3.5rem;
+    margin-bottom: 2rem;
 }
 
 .cuadro__title {
@@ -31,8 +32,8 @@ body {
 }
 
 .cuadros__cuadro {
-    width: 25rem;
-    height: 25rem;
+    width: 22rem;
+    height: 22rem;
     background-color: #4f83d1;
     margin: 1rem;
     border-radius: 1.5rem;

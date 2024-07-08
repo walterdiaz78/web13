@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.welcome__img {
+    flex: 0 0 auto;
+    margin-right: 1rem;
+}
+
+.welcome__img img {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+}
+
+.welcome__text {
+    flex: 1 1 auto;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #4f83d1;
+}
+
+.plan {
+    margin-bottom: 1.5rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    color: #4f83d1;
+    margin-bottom: 1rem;
+}
+
+.plan h3 {
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.plan ul {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+.plan ul li {
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+
+.plan ul li::before {
+    content: "•";
+    position: absolute;
+    left: -1rem;
+    color: #4f83d1;
+}
+
+.note p,
+.additional-materials p,
+.contact p {
+    margin-bottom: 1rem;
+}
+
+.why-work-with-me ul,
+.importance ul,
+.maintenance ul,
+.work-process ul,
+.considerations ul {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+.why-work-with-me ul li,
+.importance ul li,
+.maintenance ul li,
+.work-process ul li,
+.considerations ul li {
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+
+.why-work-with-me ul li::before,
+.importance ul li::before,
+.maintenance ul li::before,
+.work-process ul li::before,
+.considerations ul li::before {
+    content: "•";
+    position: absolute;
+    left: -1rem;
+    color: #4f83d1;
+}
+
+.contact a {
+    color: #4f83d1;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .plan {
+        padding-bottom: 1rem;
+    }
+}
