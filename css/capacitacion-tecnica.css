@@ -35,6 +35,10 @@ nav ul li a {
     text-decoration: none;
 }
 
+li {
+    margin-bottom: 20px;
+}
+
 section {
     padding: 20px;
     margin: 20px;
