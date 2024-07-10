@@ -124,6 +124,94 @@ strong {
   font-weight: var(--font-weight-bold);
 }
 
+.ingreso {
+  margin: 0;
+  padding: 0;
+  margin-left: 1rem;
+  font-weight: 400;
+  color: white;
+  transition: all 0.3s ease;
+  
+}
+
+.ingreso:hover {
+  background: #7cb8eb;
+  
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 0 10px;
+
+  
+}
+/* .social {
+  position: fixed;
+  bottom: 20px;
+  right: 20px; 
+  z-index: 1000;
+  width: auto; 
+}
+
+#ENVIAR_WHATSAPP img {
+  width: 70px; 
+  height: auto; 
+  transition: transform 0.3s ease; 
+}
+
+#ENVIAR_WHATSAPP:hover img {
+  transform: scale(1.1); 
+} */
+.social {
+  position: fixed;
+  bottom: 20px;
+  right: 35px;
+  z-index: 9999999;
+  width: auto;
+}
+
+#ENVIAR_WHATSAPP {
+  position: relative;
+  display: inline-block;
+}
+
+#ENVIAR_WHATSAPP img {
+  width: 50px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+#ENVIAR_WHATSAPP:hover img {
+  transform: scale(1.1);
+}
+
+/* Tooltip container */
+.tooltip-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 9999999;
+  bottom: 125%; /* Position above the button */
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+#ENVIAR_WHATSAPP:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
 .page-404-title {
   color: var(--secondary-color);
   font-size: 10rem;
