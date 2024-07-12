@@ -1704,6 +1704,69 @@ strong {
   }
 }
 
+/* Cards plans */
+.plans {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+  justify-content: center;
+  margin-bottom:50px;
+  
+}
+
+.card {
+  margin: 0 30px 30px; 
+  border-radius: 15px;
+  border-top: 8px solid  #4f83d1;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card h4 {
+  color: #333;
+  margin-bottom: 10px;
+  
+}
+
+.card ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.card ul li {
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  color: #4f83d1;
+  font-size: 24px;
+  margin: 0;
+}
+.plans__title {
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+  
+  
+  
+  
+
+}
+.title__h4 {
+  color: #4f83d1;
+}
 @media screen and (max-width: 480px) {
   h1 {
     font-size: 40px;
