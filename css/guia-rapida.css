@@ -54,3 +54,10 @@ footer p {
 .content ul li {
     margin-bottom: 5px;
 }
+
+.video {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
