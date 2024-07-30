@@ -1,12 +1,16 @@
+
 body {
+    width: 100%;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    align-items: flex-start;
+    min-height: 100vh;
     background-color: #f4f4f4;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
 .card {
@@ -14,21 +18,46 @@ body {
     padding: 20px;
     border-radius: 15px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-    width: 90%;
-    max-width: 600px;
+    width: 80%;
+    
     text-align: center;
+    margin: 20px 0;
+    
 }
 
-h1, h2 {
+
+
+h1 {
     color: #4f83d1;
 }
 
-.mp, .cuentadni, .datos {
+.mp, .cuentadni, .paypal, .datos {
+    flex-basis: calc(50% - 10px);
     margin-bottom: 20px;
     text-align: left;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 15px grey;
+    min-height: 150px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
 }
 
-h2 {
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h2, h4 {
     margin-bottom: 5px;
     color: #333;
 }
@@ -36,10 +65,11 @@ h2 {
 p {
     margin: 5px 0;
     color: #666;
+    font-size: 1.3rem;
 }
 
 .icon-img {
-    width: 24px; /* Ajusta el tamaño según el tamaño de tus imágenes */
+    width: 24px; 
     height: auto;
     margin-right: 5px;
 }
@@ -51,15 +81,18 @@ p {
     }
 
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
 
     h2 {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     p {
-        font-size: 1rem;
+        font-size: 1.1rem;
+    }
+    .mp, .cuentadni, .paypal, .datos {
+        flex-basis: 100%;
     }
 }
 
@@ -69,14 +102,17 @@ p {
     }
 
     h1 {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     h2 {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     p {
-        font-size: 0.9rem;
+        font-size: 1rem;
+    }
+    .mp, .cuentadni, .paypal, .datos {
+        flex-basis: 100%;
     }
 }
