@@ -1,4 +1,8 @@
+html {
+    font-size: 10px;
+}
 body {
+    font-size: 1.8rem;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f0f0f0;
@@ -48,4 +52,17 @@ b {
     .section {
         padding: 10px;
     }
+}
+.imp {
+    
+    background-color: #dbdfa5;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h4 {
+    
+    background-color: #dadf99;
+    border-radius: 10px;
+    padding: 20px;
 }

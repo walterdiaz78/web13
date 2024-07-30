@@ -87,6 +87,16 @@ iframe {
     border: 0; 
 }
 
+.video2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.video2__video {
+    width: 560px;
+    height: 315px;
+}
+
 /* Estilos específicos para dispositivos móviles */
 @media (max-width: 600px) {
     header, nav, section, footer {
@@ -105,5 +115,9 @@ iframe {
 
     nav {
         display: none;
+    }
+    .video2__video{
+        width: 100%;
+        height: 200px;
     }
 }
