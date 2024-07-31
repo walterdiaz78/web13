@@ -195,7 +195,23 @@
                                             alt="">
                                         <img src="images/services/seo-optimizacion.jpg"
                                             class="services-image services-image-hover img-fluid" alt="">
-
+                                            fetch('https://ipapi.co/json/')
+                                            .then(response => response.json())
+                                            .then(data => {
+                                              const isArgentina = data.country_code === 'AR';
+                                              const priceElements = document.querySelectorAll('.price');
+                                              
+                                              priceElements.forEach(element => {
+                                                if (isArgentina) {
+                                                  const arsPrice = element.dataset.ars;
+                                                  element.textContent = `${arsPrice} ARS`;
+                                                } else {
+                                                  const usdPrice = element.dataset.usd;
+                                                  element.textContent = `${usdPrice} USD`;
+                                                }
+                                              });
+                                            })
+                                            .catch(error => console.error('Error:', error));
                                         <div class="services-icon-wrap">
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <p class="text-white mb-0">
