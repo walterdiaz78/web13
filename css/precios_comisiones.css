@@ -48,6 +48,8 @@ b {
     color: #333;
 }
 
+
+
 @media (max-width: 600px) {
     .section {
         padding: 10px;

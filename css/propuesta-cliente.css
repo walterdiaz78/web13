@@ -158,6 +158,10 @@ section h2 {
     text-decoration: underline;
 }
 
+.centrado {
+    text-align: center;
+}
+
 @media (max-width: 768px) {
     .plan {
         flex-basis: 100%;
