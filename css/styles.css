@@ -169,6 +169,7 @@ strong {
 }
 
 #ENVIAR_WHATSAPP {
+  
   position: relative;
   display: inline-block;
 }
@@ -180,7 +181,7 @@ strong {
 }
 
 #ENVIAR_WHATSAPP:hover img {
-  transform: scale(1.1);
+  transform: scale(1.5);
 }
 
 /* Tooltip container */
@@ -207,7 +208,7 @@ strong {
 
 #ENVIAR_WHATSAPP:hover .tooltip-text {
   visibility: visible;
-  opacity: 1;
+  opacity: 0.8;
 }
 
 

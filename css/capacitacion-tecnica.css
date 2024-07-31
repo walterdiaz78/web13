@@ -1,5 +1,5 @@
 html {
-    font-size: 20px;
+    font-size: 1rem; /* 1rem = 16px por defecto */
 }
 body {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -7,7 +7,6 @@ body {
     color: #ffffff;
     margin: 0;
     padding: 0;
-    
 }
 
 header {
@@ -53,6 +52,7 @@ section h2 {
     text-align: center;
     color: #ffffff;
 }
+
 .images {
     display: flex;
     justify-content: center;
@@ -62,7 +62,7 @@ section h2 {
 }
 
 .images__image {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     border-radius: 10px;
 }
@@ -93,18 +93,26 @@ footer p {
 }
 
 @media (max-width: 768px) {
+    html {
+        font-size: 1.3rem; /* Ajusta según sea necesario */
+    }
     nav ul {
         flex-direction: column;
         align-items: center;
     }
-
     section {
         margin: 10px;
         padding: 10px;
     }
-
+    section p {
+        font-size: 1rem; /* Ajusta según sea necesario */
+    }
     button, .fab {
         width: 80%;
         padding: 10px;
+    }
+    .images {
+        flex-direction: column;
+        align-items: center;
     }
 }
