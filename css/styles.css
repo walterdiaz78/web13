@@ -143,6 +143,13 @@ strong {
 
   
 }
+
+.down{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 /* .social {
   position: fixed;
   bottom: 20px;
