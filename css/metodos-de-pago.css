@@ -8,8 +8,8 @@ body {
     justify-content: center;
     align-items: flex-start;
     min-height: 100vh;
-    background: rgb(79,131,209);
-background: linear-gradient(180deg, rgba(79,131,209,1) 0%, rgba(149,173,209,1) 8%, rgba(238,234,191,1) 50%);
+    background: #f5f5f5;
+    background: linear-gradient(180deg, #dfdddd 8%, #f5f5f5 50%, #faf9f9 90%);
     
 padding: 15px;
     box-sizing: border-box;
