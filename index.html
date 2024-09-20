@@ -42,6 +42,9 @@
     <link href="css/bootstrap-icons.css" rel="stylesheet">
     
     <link href="css/styles.css" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Web13 Studio - Diseño y desarrollo web profesional</title>
 
 </head>
@@ -85,7 +88,7 @@
     </header>
 
     <nav class="navbar navbar-expand-lg">
-        <div class="container">
+        <div class="container" data-aos="fade-right" data-aos-duration="2000">
             <a class="navbar-brand" href="index.html">
                 <img src="images/icoweb13.png" class="logo img-fluid" alt="">
 
@@ -103,7 +106,7 @@
         <section class="hero-section hero-section-full-height d-flex justify-content-center align-items-center">
             <div class="section-overlay"></div>
 
-            <div class="container">
+            <div class="container" data-aos="fade-down" data-aos-duration="2000">
                 <div class="row">
 
                     <div class="col-lg-7 col-12 text-center mx-auto">
@@ -144,7 +147,7 @@
             <div class="container">
                 <div class="row justify-content-lg-center align-items-center">
 
-                    <div class="col-lg-6 col-12">
+                    <div class="col-lg-6 col-12" data-aos="fade-right" data-aos-duration="2000">
                         <h2 class="mb-4">
                             Crea tu sitio web ideal <br> con nosotros!</h2>
 
@@ -157,7 +160,7 @@
                             todo el proceso.</p>
                     </div>
 
-                    <div class="col-lg-6 col-12 custom-block-wrap">
+                    <div class="col-lg-6 col-12 custom-block-wrap" data-aos="fade-left" data-aos-duration="2000">
                         <img src="images/hombre-navegando-internet-pensando.png" class="img-fluid">
 
                         <div class="custom-block d-flex flex-column">
@@ -186,7 +189,7 @@
                         <h2 class="mb-4">Preguntas frecuentes</h2>
                     </div>
 
-                    <div class="col-lg-6 col-12">
+                    <div class="col-lg-6 col-12" data-aos="zoom-in" data-aos-duration="2000">
                         <div class="services-thumb">
                             <div class="row">
                                 <div class="col-lg-5 col-md-5 col-12">
@@ -237,7 +240,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-12">
+                    <div class="col-lg-6 col-12" data-aos="zoom-in" data-aos-duration="2000">
                         <div class="services-thumb">
                             <div class="row">
                                 <div class="col-lg-5 col-md-5 col-12">
@@ -286,7 +289,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-12">
+                    <div class="col-lg-6 col-12" data-aos="zoom-in" data-aos-duration="2000">
                         <div class="services-thumb mb-lg-0">
                             <div class="row">
                                 <div class="col-lg-5 col-md-5 col-12">
@@ -342,7 +345,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-12">
+                    <div class="col-lg-6 col-12"data-aos="zoom-in" data-aos-duration="2000">
                         <div class="services-thumb mb-lg-0">
                             <div class="row">
                                 <div class="col-lg-5 col-md-5 col-12">
@@ -374,7 +377,7 @@
                                                 actualización de sitios web?</a>
                                         </h4>
 
-                                        <p>No cobramos mantenimiento mensual. Sin embargo, si necesitas realizar cambios con regularidad, puedes contratar nuestro servicio mensual para mantener tu sitio siempre al día.</p>
+                                        <p>No cobramos mantenimiento mensual. </p>
 
                                         <div class="d-flex flex-wrap align-items-center">
 
@@ -399,7 +402,7 @@
         </section>
 
 
-        <div class="plans">
+        <div class="plans" data-aos="fade-up" data-aos-duration="2000">
             <div class="plans__title">
             <h4 class="title__h4">Nuestros planes</h4><br>
         </div>
@@ -447,10 +450,10 @@
             </div>
         </div>
 
-        <section class="testimonial-section section-padding section-bg">
+        <section class="testimonial-section section-padding section-bg" >
             <div class="section-overlay"></div>
 
-            <div class="container">
+            <div class="container" data-aos="fade-up" data-aos-duration="2000">
                 <div class="row">
 
                     <div class="col-lg-12 col-12 text-center">
@@ -676,6 +679,10 @@
 
 
     <!-- JAVASCRIPT FILES -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.backstretch.min.js"></script>
@@ -686,6 +693,7 @@
     <script src="js/animated-headline.js"></script>
     <script src="js/custom.js"></script>
     <script src="./js/api-geo-localizacion.js"></script>
+
 
 </body>
 
