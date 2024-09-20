@@ -10,9 +10,9 @@
 
     // BACKSTRETCH SLIDESHOW
     $('.hero-section').backstretch([
-      "images/slideshow/navegando-sitio-internet-web.avif", 
-      "images/slideshow/programador-codigo-web-net-internet.avif",
       "images/slideshow/mujer-navega-internet-sonrisa-pagina-web.avif",
+      "images/slideshow/programador-codigo-web-net-internet.avif",
+      "images/slideshow/navegando-sitio-internet-web.avif", 
       "images/slideshow/hombre-navegando-internet-pc-celular-smartphone-web.avif"
     ],  {duration: 2000, fade: 750});
     
