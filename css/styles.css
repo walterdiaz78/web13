@@ -1596,6 +1596,7 @@ strong {
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 42px;
+    
   }
 
   h2 {
@@ -1828,6 +1829,7 @@ strong {
 @media screen and (max-width: 480px) {
   h1 {
     font-size: 40px;
+    
   }
 
   h2 {

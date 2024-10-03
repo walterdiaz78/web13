@@ -228,6 +228,24 @@ section h2 {
     text-align: center;
 }
 
+.fixed-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #4f83d1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000; 
+    font-size: 16px;
+    transition: all 300ms ease-in-out;
+}
+.fixed-button:hover{
+    transform: scale(1.1);
+}
+
 @media (max-width: 768px) {
     .plan {
         flex-basis: 100%;
@@ -235,6 +253,10 @@ section h2 {
 }
 
 @media (max-width: 600px) {
+
+    h1{
+        margin-top: 3rem;
+    }
     .container {
         padding: 1rem;
     }
